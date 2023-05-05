@@ -1,0 +1,63 @@
+body {
+    
+
+    padding: 0;
+
+    margin: 0;
+
+    background-color: #61b8d3;
+
+}
+* {box-sizing: border-box;}
+                                                                                       
+ body {font-family: Arial, Helvetica, sans-serif;}
+                                                                                                   
+.header,.main,.footer{max-width:1200px;margin:auto}
+                                                                                                   
+.header {background-color: #f1f1f1;padding: 30px;text-align: center;font-size: 35px;}
+                                                                                                   
+ .footer {background-color: #f1f1f1;padding: 10px;text-align: center;}
+                                                                                                   
+table{  width:100% }
+                                                                                                   
+table, th, td, caption{
+border:1px solid #ffffff;
+border-collapse:collapse;padding:5px
+}
+                                                                                                   
+table caption{
+ background-color:#d9d9d9;
+font-weight:bold
+}
+                                                                                                   
+tbody tr:nth-child(odd) {
+background-color: #f2f2f2;
+}
+                                                                                                   
+td:nth-child(odd),tfoot td:nth-child(odd) {
+   text-align: center;
+   background-color: #f2f2f2;
+text-align:center;
+font-weight:bold
+}
+                                                                                                   
+ td:nth-child(odd){
+width:30%
+}
+
+.btn{
+    padding: 17px 14px;
+    width: 100px;
+    color: #000000;
+    background-color: #b46262;
+    border: 3px solid #000000;
+    border-radius: 8px;
+    text-align: center;
+    user-select: none;
+    cursor: hand;
+ 
+ }
+ 
+ .btn:hover{
+   background: #fffaef;
+ }
